@@ -1,0 +1,28 @@
+.Wind {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px 5px 40px;
+}
+.Wind p {
+  font-weight: bold;
+  font-size: 22px;
+}
+.muiicon {
+  background-color: #5c9ce5;
+  width: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.muiicon {
+  color: white;
+}
+/* styles.module.css */
+
+.semicircle {
+  position: absolute;
+  color: #5c9ce5;
+  left: 45%;
+  top: 190%;
+}
