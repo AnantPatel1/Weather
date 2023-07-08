@@ -1,0 +1,12 @@
+.weather {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WeatherDetails {
+  width: 90%;
+  height: 20rem;
+  border-radius: 30px;
+  background-color: white;
+}

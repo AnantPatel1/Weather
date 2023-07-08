@@ -1,6 +1,9 @@
 import React from "react";
+import UpcommingWeather from "./UpcommingWeather";
 import styles from "./Layout.module.css";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import TodaysWeather from "./TodaysWeather";
+
 export default function Layout() {
   return (
     <div className={styles.layout}>
@@ -22,6 +25,8 @@ export default function Layout() {
             />
           </div>
         </div>
+        <UpcommingWeather />
+        <TodaysWeather />
       </div>
     </div>
   );

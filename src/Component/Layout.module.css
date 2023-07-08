@@ -1,7 +1,7 @@
 .layout {
   width: 90%;
   border-radius: 60px;
-  /* box-shadow: 50px 50px 50px #5c9ce5; */
+  height: 70rem;
   background-color: #5c9ce5;
   margin: 120px auto;
   aspect-ratio: 1;
@@ -24,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  margin: 50px;
+  margin: 30px;
   position: relative;
 }
 .avatar img {
@@ -39,10 +39,11 @@
   top: 40%;
 }
 .welcome h3 {
-  font-weight: 900;
+  font-weight: bolder;
   font-size: 22px;
   margin-bottom: 5px;
 }
 .welcome p {
   font-size: 18px;
+  font-weight: 600;
 }
