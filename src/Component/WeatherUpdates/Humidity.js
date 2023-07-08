@@ -15,16 +15,18 @@ export default function Humidity() {
       </p>
       <div className={styles.rating}>
         <div>
-          <p>good</p>
-          <div className={styles.progres1}></div>
+          <p>Good</p>
+          <div className={styles.progres}></div>
         </div>
         <div>
-          <p>normal</p>
-          <div className={styles.progres2}></div>
+          <p>Normal</p>
+          <div className={styles.progres}></div>
         </div>
         <div>
-          <p>bad</p>
-          <div className={styles.progres3}></div>
+          <p>Bad</p>
+          <div className={styles.progres1}>
+            <div className={styles.badprogres}></div>
+          </div>
         </div>
       </div>
     </div>

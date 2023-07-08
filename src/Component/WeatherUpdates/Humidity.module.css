@@ -31,8 +31,26 @@
 .rating {
   display: flex;
   justify-content: space-between;
-  margin: 0px 30px;
+  margin: 0px 20px;
   align-items: center;
+  text-align: center;
+}
+.progres,
+.progres1 {
+  margin: 8px 0px;
+  height: 8px;
+  width: 60px;
+  border-radius: 40px;
+  background-color: #5c9ce5;
+}
+.progres1 {
+  background-color: grey;
+}
+.badprogres {
+  height: 8px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: #5c9ce5;
 }
 @media screen and (max-width: 1083px) {
   .humidity p {
@@ -43,5 +61,12 @@
   }
   .rating {
     margin: 0px 15px;
+  }
+  .progres,
+  .progres1 {
+    width: 45px;
+  }
+  .badprogres {
+    width: 30px;
   }
 }
