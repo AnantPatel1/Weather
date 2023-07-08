@@ -1,0 +1,68 @@
+.humidity {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 5px 20px;
+}
+.humidity p {
+  font-weight: bold;
+  font-size: 22px;
+}
+.percentage span {
+  font-weight: lighter;
+  font-size: 18px;
+}
+.icon {
+  background-color: #5c9ce5;
+  width: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.muiicon {
+  color: white;
+}
+.percentage {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 40px 10px 40px;
+}
+.time p {
+  font-size: 15px;
+}
+.bgblue,
+.prepdiv {
+  width: 30px;
+  height: 8px;
+  background-color: #5c9ce5;
+  border-radius: 20px;
+}
+.prepdiv {
+  background-color: gray;
+}
+
+.halfill {
+  width: 50%;
+  background-color: #5c9ce5;
+  height: 100%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1083px) {
+  .humidity p {
+    font-size: 18px;
+  }
+  .humidity {
+    margin: 18px;
+  }
+  .time {
+    margin: 10px 2px 10px 2px;
+  }
+}

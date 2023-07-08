@@ -3,6 +3,9 @@ import React from "react";
 import Humidity from "../WeatherUpdates/Humidity";
 import Wind from "../WeatherUpdates/Wind";
 import Precipitation from "../WeatherUpdates/Precipitation";
+import UVindex from "../WeatherUpdates/UVindex";
+import Temperature from "../WeatherUpdates/Temperature";
+import Rain from "../WeatherUpdates/Rain";
 export default function TodaysWeather() {
   return (
     <div className={styles.TodaysWeather}>
@@ -20,9 +23,15 @@ export default function TodaysWeather() {
           </div>
         </div>
         <div className={styles.bottomRow}>
-          <div className={styles.box}></div>
-          <div className={styles.box}></div>
-          <div className={styles.box}></div>
+          <div className={styles.box}>
+            <UVindex />
+          </div>
+          <div className={styles.box}>
+            <Temperature />
+          </div>
+          <div className={styles.box}>
+            <Rain />
+          </div>
         </div>
       </div>
     </div>

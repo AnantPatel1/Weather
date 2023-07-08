@@ -1,0 +1,28 @@
+.humidity {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px 5px 40px;
+}
+.humidity p {
+  font-weight: bold;
+  font-size: 22px;
+}
+.icon {
+  background-color: #5c9ce5;
+  width: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.muiicon {
+  color: white;
+}
+@media screen and (max-width: 1083px) {
+  .humidity p {
+    font-size: 18px;
+  }
+  .humidity {
+    margin: 18px;
+  }
+}
