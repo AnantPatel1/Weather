@@ -1,11 +1,48 @@
 .layout {
   width: 90%;
-  border-radius: 30px;
+  border-radius: 60px;
   /* box-shadow: 50px 50px 50px #5c9ce5; */
   background-color: #5c9ce5;
-  margin: 150px auto;
+  margin: 120px auto;
   aspect-ratio: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container1 {
+  width: 30%;
+  height: 100%;
+}
+.container2 {
+  border-radius: 60px;
+  width: 70%;
+  height: 100%;
+  background-color: #e4f1ff;
+}
+.userdetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 50px;
+  position: relative;
+}
+.avatar img {
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+.icon {
+  position: absolute;
+  right: 100px;
+  top: 40%;
+}
+.welcome h3 {
+  font-weight: 900;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.welcome p {
+  font-size: 18px;
 }
