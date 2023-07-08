@@ -47,3 +47,11 @@
   font-size: 18px;
   font-weight: 600;
 }
+.icon:hover {
+  cursor: pointer;
+  transform: translateY(2px);
+}
+.avatar img:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}

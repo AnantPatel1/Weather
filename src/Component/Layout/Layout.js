@@ -3,11 +3,13 @@ import UpcommingWeather from "./UpcommingWeather";
 import styles from "./Layout.module.css";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import TodaysWeather from "./TodaysWeather";
-
+import Header from "../Location/Header/Header";
 export default function Layout() {
   return (
     <div className={styles.layout}>
-      <div className={styles.container1}> </div>
+      <div className={styles.container1}>
+        <Header />{" "}
+      </div>
       <div className={styles.container2}>
         <div className={styles.userdetails}>
           <div className={styles.welcome}>
