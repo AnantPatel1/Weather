@@ -1,0 +1,11 @@
+.layout {
+  width: 90%;
+  border-radius: 30px;
+  /* box-shadow: 50px 50px 50px #5c9ce5; */
+  background-color: #5c9ce5;
+  margin: 150px auto;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
