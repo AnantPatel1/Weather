@@ -12,8 +12,6 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-
-  /* padding: 10px; */
 }
 .topRow,
 .bottomRow {
@@ -27,8 +25,9 @@
 }
 
 .box {
+  position: relative;
   width: 400px;
-  height: 150px;
+  height: 180px;
   background-color: white;
   border-radius: 60px;
   margin: 0 2%;
