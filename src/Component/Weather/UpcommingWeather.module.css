@@ -47,3 +47,8 @@ button:hover {
 .presentTemeperature p {
   width: 40px;
 }
+@media screen and (max-width: 914px) {
+  .upcommingweather div {
+    margin: 10px 10px;
+  }
+}

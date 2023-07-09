@@ -30,13 +30,13 @@ export default function Loaction() {
         <KeyboardArrowLeftIcon
           className={styles.icon}
           sx="transform:scale(2)"
-          style={{ marginRight: "80px" }}
+          style={{ marginRight: "20%" }}
         />
         27°
         <KeyboardArrowRightIcon
           className={styles.icon}
           sx="transform:scale(2)"
-          style={{ marginLeft: "80px" }}
+          style={{ marginLeft: "20%" }}
         />
       </p>
       <p className={styles.sunny}>
