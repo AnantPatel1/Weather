@@ -1,8 +1,8 @@
 import React from "react";
-import UpcommingWeather from "./UpcommingWeather";
+import UpcommingWeather from "../Weather/UpcommingWeather";
 import styles from "./Layout.module.css";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import TodaysWeather from "./TodaysWeather";
+import TodaysWeather from "../Weather/TodaysWeather";
 import Header from "../Location/Header/Header";
 import Loaction from "../Location/Place/Loaction";
 export default function Layout() {

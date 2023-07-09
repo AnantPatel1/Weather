@@ -1,4 +1,5 @@
 .weather {
+  margin: 100px 0px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10,7 +11,8 @@
   border-radius: 30px;
   background-color: white;
 }
-.upcommingweather {
+.upcommingweather,
+.presentTemeperature {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,4 +40,10 @@ span {
 button:hover {
   cursor: pointer;
   transform: translateY(-2px);
+}
+.presentTemeperature {
+  margin: 50px 30px;
+}
+.presentTemeperature p {
+  width: 40px;
 }
