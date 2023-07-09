@@ -10,3 +10,32 @@
   border-radius: 30px;
   background-color: white;
 }
+.upcommingweather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upcommingweather div {
+  margin: 10px 40px;
+}
+.upcommingweather div p {
+  font-weight: bold;
+  font-size: 18px;
+}
+button {
+  background-color: #c4c4c47c;
+  border: none;
+  width: 135px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 15px;
+}
+button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
