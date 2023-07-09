@@ -12,6 +12,7 @@
 .container1 {
   width: 30%;
   height: 100%;
+  position: relative;
 }
 .container2 {
   border-radius: 60px;

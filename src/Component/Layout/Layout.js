@@ -4,11 +4,12 @@ import styles from "./Layout.module.css";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import TodaysWeather from "./TodaysWeather";
 import Header from "../Location/Header/Header";
+import Loaction from "../Location/Place/Loaction";
 export default function Layout() {
   return (
     <div className={styles.layout}>
       <div className={styles.container1}>
-        <Header />{" "}
+        <Header /> <Loaction />
       </div>
       <div className={styles.container2}>
         <div className={styles.userdetails}>

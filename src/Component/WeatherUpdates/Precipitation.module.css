@@ -34,14 +34,19 @@
   font-size: 12px;
 }
 .bgblue,
-.prepdiv {
-  width: 20px;
-  height: 5px;
+.prepdiv,
+.halffill {
+  width: 12px;
+  height: 10px;
   background-color: #5c9ce5;
   border-radius: 20px;
 }
 .prepdiv {
   background-color: gray;
+}
+.halffill {
+  width: 6px;
+  border-radius: 40px;
 }
 @media screen and (max-width: 1083px) {
   .humidity p {

@@ -7,6 +7,10 @@
 .icon {
   color: white;
 }
+.icon:hover {
+  transform: translateX(2px);
+  cursor: pointer;
+}
 @media screen and (max-width: 1083px) {
   .header {
     margin: 60px 40px;

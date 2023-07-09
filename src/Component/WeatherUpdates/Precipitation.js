@@ -17,11 +17,14 @@ export default function Precipitation() {
         </p>
         <p>
           {" "}
-          10 <div className={styles.bgblue}></div>
+          10{" "}
+          <div className={styles.prepdiv}>
+            <div className={styles.halffill}></div>
+          </div>
         </p>
         <p>
           {" "}
-          20 <div className={styles.bgblue}></div>
+          20 <div className={styles.prepdiv}></div>
         </p>
         <p>
           {" "}
