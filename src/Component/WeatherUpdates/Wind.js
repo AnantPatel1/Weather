@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Wind.module.css";
 import AirIcon from "@mui/icons-material/Air";
-import SpeedIcon from "@mui/icons-material/Speed";
+import NorthWestOutlinedIcon from "@mui/icons-material/NorthWestOutlined";
 export default function Wind() {
   return (
     <div style={{ position: "relative" }}>
@@ -11,9 +11,25 @@ export default function Wind() {
           <AirIcon className={styles.muiicon} />
         </p>
       </div>
-      <div className={styles.semicircle}>
-        <SpeedIcon sx={{ transform: "scale(5.5)" }} />
+      <div className={styles.speedometer}>
+        <div className={styles.wrapper}>
+          <div className={styles["indicator-wrapper"]}>
+            <div className={styles["indicator-wrapper-inner"]}>
+              <div className={styles.indicator}></div>
+            </div>
+          </div>
+
+          <div className={`${styles.bar} ${styles["bar-1"]}`}></div>
+          <div className={`${styles.bar} ${styles["bar-2"]}`}></div>
+          <div className={`${styles.bar} ${styles["bar-3"]}`}></div>
+          <div className={`${styles.bar} ${styles["bar-4"]}`}></div>
+        </div>
       </div>
+      <NorthWestOutlinedIcon
+        className={styles.arrow}
+        sx="transform:scale(1.5)"
+      />
+      <p className={styles.speed}>8km/h</p>
     </div>
   );
 }

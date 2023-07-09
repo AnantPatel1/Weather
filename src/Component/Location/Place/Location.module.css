@@ -30,6 +30,10 @@
   font-size: 50px;
   color: white;
 }
+.sunny:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
 .cityimg {
   position: absolute;
   height: 600px;
